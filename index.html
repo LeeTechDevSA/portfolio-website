@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Lee | Systems Developer</title>
+<title>Lee | Software Developer</title>
 
 <style>
 
@@ -11,23 +11,70 @@ margin:0;
 background:#f4f4f4;
 }
 
+/* Header */
 header{
 background:#0a66c2;
 color:white;
 text-align:center;
-padding:40px;
+padding:50px 20px;
 }
 
+header h1{
+margin:0;
+font-size:36px;
+}
+
+header p{
+margin-top:10px;
+font-size:18px;
+}
+
+/* Section */
 section{
 padding:40px;
+max-width:900px;
+margin:auto;
 }
 
-.project{
+/* Card */
+.card{
 background:white;
 padding:20px;
 margin:20px 0;
 border-radius:10px;
-box-shadow:0 2px 5px rgba(0,0,0,0.1);
+box-shadow:0 2px 8px rgba(0,0,0,0.1);
+}
+
+/* Skills */
+.skills span{
+display:inline-block;
+background:#0a66c2;
+color:white;
+padding:8px 12px;
+margin:5px;
+border-radius:20px;
+font-size:14px;
+}
+
+/* Button */
+.btn{
+display:inline-block;
+background:#0a66c2;
+color:white;
+padding:10px 20px;
+border-radius:5px;
+text-decoration:none;
+margin-top:10px;
+}
+
+.btn:hover{
+background:#084a91;
+}
+
+footer{
+text-align:center;
+padding:20px;
+background:#ddd;
 }
 
 </style>
@@ -37,43 +84,50 @@ box-shadow:0 2px 5px rgba(0,0,0,0.1);
 <body>
 
 <header>
-<h1>Lee - Systems Developer</h1>
+<h1>Lee</h1>
 <p>Aspiring Software Engineer | FinTech Enthusiast</p>
+<a href="https://github.com/YOUR-USERNAME" class="btn">View My GitHub</a>
 </header>
 
 <section>
 
+<div class="card">
 <h2>About Me</h2>
-
 <p>
-Systems Development graduate passionate about building software solutions,
-learning modern technologies, and contributing to innovative banking systems.
+I am a Systems Development graduate passionate about building software solutions,
+solving problems, and developing innovative technology for the banking and fintech industry.
 </p>
-
-<h2>Skills</h2>
-
-<ul>
-<li>HTML</li>
-<li>CSS</li>
-<li>JavaScript</li>
-<li>Problem Solving</li>
-<li>Software Development</li>
-</ul>
-
-<h2>Projects</h2>
-
-<div class="project">
-<h3>Portfolio Website</h3>
-<p>Personal website showcasing my development skills.</p>
 </div>
 
-<div class="project">
+<div class="card">
+<h2>Skills</h2>
+<div class="skills">
+<span>HTML</span>
+<span>CSS</span>
+<span>JavaScript</span>
+<span>Problem Solving</span>
+<span>Software Development</span>
+</div>
+</div>
+
+<div class="card">
+<h2>Projects</h2>
+
+<h3>Portfolio Website</h3>
+<p>Personal website showcasing my development skills.</p>
+
 <h3>Number Guessing Game</h3>
-<p>Interactive JavaScript game where users guess a random number.</p>
+<p>Interactive JavaScript game demonstrating logic and problem-solving.</p>
+
+<a href="https://github.com/YOUR-USERNAME" class="btn">View Projects</a>
+
 </div>
 
 </section>
 
-</body>
+<footer>
+<p>© 2026 Lee | Software Developer</p>
+</footer>
 
+</body>
 </html>
